@@ -2,29 +2,9 @@ while not game:IsLoaded() do
     wait()
 end
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
-local main = libary:CreateWindow("Anime Battles Simulator")
-local mod = main:Button("EGG", function()
-_G.village_enabled = not _G.village_enabled
-while _G.village_enabled do
-local args = {
-    [1] = "spin",
-    [2] = "champions",
-    [3] = "one",
-    [4] = "hueco mundo"
-}
+local main = libary:CreateWindow("AUTO")
 
-game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-
-wait(0.1)
-local args = {
-    [1] = "Equip"
-}
-
-game:GetService("ReplicatedStorage").Remotes.RollEvent:FireServer(unpack(args))
-wait(0.1)
-end
-end)
-local mod = main:Button("attack", function()
+local mod = main:Button("Auto Click", function()
 _G.attack_enabled = not _G.attack_enabled
 while _G.attack_enabled do
 local args = {
@@ -35,7 +15,7 @@ wait(0.1)
 end
 end)
 
-local mod = main:Button("skill", function()
+local mod = main:Button("Auto Skill", function()
 _G.skill_enabled = not _G.skill_enabled
 while _G.skill_enabled do
 local args = {
@@ -44,20 +24,178 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteFunction:InvokeServer(unpack(args))
-wait(5)
+wait(1)
 local args = {
     [1] = "fire_ability",
     [2] = 2
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteFunction:InvokeServer(unpack(args))
-wait(5)
+wait(1)
 local args = {
     [1] = "fire_ability",
     [2] = 3
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteFunction:InvokeServer(unpack(args))
-wait(25)
+wait(1)
+end
+end)
+
+local mod = main:Button("Anti Afk", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Anti-Afk-Remastered-Script-or-Diffrent-Cool-UI-2097"))()
+end)
+
+local main = libary:CreateWindow("EGG1")
+
+local mod = main:Button("Namequi", function()
+_G.village_enabled = not _G.village_enabled
+while _G.village_enabled do
+local args = {
+    [1] = "spin",
+    [2] = "champions",
+    [3] = "one",
+    [4] = "namequi"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+wait(0.1)
+end
+end)
+
+local mod = main:Button("Tokyo", function()
+_G.tokyo_enabled = not _G.tokyo_enabled
+while _G.tokyo_enabled do
+local args = {
+    [1] = "spin",
+    [2] = "champions",
+    [3] = "one",
+    [4] = "tokyo"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+wait(0.1)
+end
+end)
+
+local mod = main:Button("Shell Village", function()
+_G.shellvillage_enabled = not _G.shellvillage_enabled
+while _G.shellvillage_enabled do
+local args = {
+    [1] = "spin",
+    [2] = "champions",
+    [3] = "one",
+    [4] = "shell village"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+wait(0.1)
+end
+end)
+
+local mod = main:Button("Hueco Mundo", function()
+_G.huecomundo_enabled = not _G.huecomundo_enabled
+while _G.huecomundo_enabled do
+local args = {
+    [1] = "spin",
+    [2] = "champions",
+    [3] = "one",
+    [4] = "hueco mundo"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+wait(0.1)
+end
+end)
+
+local mod = main:Button("Sariuh", function()
+_G.sariuh_enabled = not _G.sariuh_enabled
+while _G.sariuh_enabled do
+local args = {
+    [1] = "spin",
+    [2] = "champions",
+    [3] = "one",
+    [4] = "sariuh"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+wait(0.1)
+end
+end)
+
+local mod = main:Button("Jutso", function()
+_G.jutso_enabled = not _G.jutso_enabled
+while _G.jutso_enabled do
+local args = {
+    [1] = "spin",
+    [2] = "champions",
+    [3] = "one",
+    [4] = "jutso"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+wait(0.1)
+end
+end)
+
+local main = libary:CreateWindow("EGG2")
+
+local mod = main:Button("Kintetsu", function()
+_G.kintetsu_enabled = not _G.kintetsu_enabled
+while _G.kintetsu_enabled do
+local args = {
+    [1] = "spin",
+    [2] = "champions",
+    [3] = "one",
+    [4] = "kintetsu"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+wait(0.1)
+end
+end)
+
+local mod = main:Button("Dark Clover", function()
+_G.darkclover_enabled = not _G.darkclover_enabled
+while _G.darkclover_enabled do
+local args = {
+    [1] = "spin",
+    [2] = "champions",
+    [3] = "one",
+    [4] = "dark clover"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+wait(0.1)
+end
+end)
+
+local mod = main:Button("Titan Attack", function()
+_G.titanattack_enabled = not _G.titanattack_enabled
+while _G.titanattack_enabled do
+local args = {
+    [1] = "spin",
+    [2] = "champions",
+    [3] = "one",
+    [4] = "titan attack"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+wait(0.1)
+end
+end)
+
+local mod = main:Button("Chainsaw", function()
+_G.chainsaw_enabled = not _G.chainsaw_enabled
+while _G.chainsaw_enabled do
+local args = {
+    [1] = "spin",
+    [2] = "champions",
+    [3] = "one",
+    [4] = "chainsaw"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+wait(0.1)
 end
 end)
