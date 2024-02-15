@@ -42,6 +42,110 @@ wait(1)
 end
 end)
 
+local mod = main:Button("Auto Fingers FARM", function()
+_G.FINGERS_enabled = not _G.FINGERS_enabled
+while _G.FINGERS_enabled do
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3253.347900390625, 781.5624389648438, 1048.073974609375)
+wait(1)
+local args = {
+    [1] = "drop_collected",
+    [2] = "jutso",
+    [3] = "367BC548-1D14-45B8-AA09-66CC956983F7"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3169.305419921875, 781.468994140625, 1171.164306640625)
+wait(1)
+local args = {
+    [1] = "drop_collected",
+    [2] = "jutso",
+    [3] = "034771C8-2C6D-4E4A-8D63-24634C5A2073"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3041.47216796875, 785.2297973632812, 1115.5301513671875)
+wait(1)
+local args = {
+    [1] = "drop_collected",
+    [2] = "jutso",
+    [3] = "DB21DFA4-1840-4A8A-A378-CE41A73C06DD"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3082.622314453125, 783.2338256835938, 977.2638549804688)
+wait(1)
+local args = {
+    [1] = "drop_collected",
+    [2] = "jutso",
+    [3] = "45220828-C79D-4599-B0F2-4542633A08AD"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3053.121337890625, 783.1873168945312, 1218.1397705078125)
+wait(1)
+local args = {
+    [1] = "drop_collected",
+    [2] = "jutso",
+    [3] = "9A1C5444-A7AD-4EBA-B49E-93BF50C41540"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2961.252685546875, 782.2025756835938, 1243.0316162109375)
+wait(1)
+local args = {
+    [1] = "drop_collected",
+    [2] = "jutso",
+    [3] = "FA91FBEF-641F-443B-B535-A8A31F61581C"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3181.375732421875, 781.9617919921875, 1249.8642578125)
+wait(1)
+local args = {
+    [1] = "drop_collected",
+    [2] = "jutso",
+    [3] = "72279CD9-3357-4A47-AA74-63D597B976BD"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2817.2705078125, 782.948486328125, 1228.7999267578125)
+wait(1)
+local args = {
+    [1] = "drop_collected",
+    [2] = "jutso",
+    [3] = "EBA5D0DB-7647-49E5-A426-1648AAE032C5"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3087.724609375, 782.693603515625, 1238.159423828125)
+wait(1)
+local args = {
+    [1] = "drop_collected",
+    [2] = "jutso",
+    [3] = "ADF5F272-3A1C-46A0-B6FD-EE289B6A69D8"
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
+end
+end)
+
 local mod = main:Button("Anti Afk", function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Anti-Afk-Remastered-Script-or-Diffrent-Cool-UI-2097"))()
 end)
