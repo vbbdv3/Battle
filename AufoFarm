@@ -45,9 +45,9 @@ end)
 local mod = main:Button("Auto Fingers FARM", function()
 _G.FINGERS_enabled = not _G.FINGERS_enabled
 while _G.FINGERS_enabled do
-wait(1)
+wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3253.347900390625, 781.5624389648438, 1048.073974609375)
-wait(1)
+wait(0.2)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -56,9 +56,9 @@ local args = {
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
 
-wait(1)
+wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3169.305419921875, 781.468994140625, 1171.164306640625)
-wait(1)
+wait(0.2)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -67,9 +67,9 @@ local args = {
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
 
-wait(1)
+wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3041.47216796875, 785.2297973632812, 1115.5301513671875)
-wait(1)
+wait(0.2)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -78,9 +78,9 @@ local args = {
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
 
-wait(1)
+wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3082.622314453125, 783.2338256835938, 977.2638549804688)
-wait(1)
+wait(0.2)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -89,9 +89,9 @@ local args = {
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
 
-wait(1)
+wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3053.121337890625, 783.1873168945312, 1218.1397705078125)
-wait(1)
+wait(0.2)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -100,9 +100,9 @@ local args = {
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
 
-wait(1)
+wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2961.252685546875, 782.2025756835938, 1243.0316162109375)
-wait(1)
+wait(0.2)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -111,9 +111,9 @@ local args = {
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
 
-wait(1)
+wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3181.375732421875, 781.9617919921875, 1249.8642578125)
-wait(1)
+wait(0.2)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -122,9 +122,9 @@ local args = {
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
 
-wait(1)
+wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2817.2705078125, 782.948486328125, 1228.7999267578125)
-wait(1)
+wait(0.2)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -133,9 +133,9 @@ local args = {
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
 
-wait(1)
+wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3087.724609375, 782.693603515625, 1238.159423828125)
-wait(1)
+wait(0.2)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
