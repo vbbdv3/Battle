@@ -1,0 +1,24 @@
+while not game:IsLoaded() do
+    wait()
+end
+local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
+local main = libary:CreateWindow("TEST NAME1")
+
+
+local mod = main:Button("TEST NAME2", function()
+
+-- REMOTE SPY   1 time click
+
+end)
+
+
+
+local mod = main:Button("TEST NAME3", function()
+_G.NAME3_enabled = not _G.NAME3_enabled
+while _G.NAME2_enabled do
+
+-- REMOTE SPY    SPAM
+
+wait(0.1)
+end
+end)
