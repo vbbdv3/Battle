@@ -210,11 +210,11 @@ end)
 local mod = main:Button("Auto Dark Clover Shards", function()
 _G.BOOK2_enabled = not _G.BOOK2_enabled
 while _G.BOOK2_enabled do
-game.Players.LocalPlayer.Character.Humanoid:MoveTo(Vector3.new(2085.02099609375, 380.570068359375, -1622.7647705078125))
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2085.02099609375, 380.570068359375, -1622.7647705078125)
 wait(1)
-game.Players.LocalPlayer.Character.Humanoid:MoveTo(Vector3.new(2065.49609375, 380.142333984375, -1587.911376953125))
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2065.49609375, 380.142333984375, -1587.911376953125)
 wait(1)
-game.Players.LocalPlayer.Character.Humanoid:MoveTo(Vector3.new(2112.31640625, 380.142333984375, -1593.247802734375))
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2112.31640625, 380.142333984375, -1593.247802734375)
 wait(1)
 end
 end)
