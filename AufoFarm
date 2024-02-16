@@ -39,6 +39,13 @@ local args = {
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteFunction:InvokeServer(unpack(args))
 wait(1)
+local args = {
+    [1] = "fire_ability",
+    [2] = 4
+}
+
+game:GetService("ReplicatedStorage").Shared.events.RemoteFunction:InvokeServer(unpack(args))
+wait(1)
 end
 end)
 
