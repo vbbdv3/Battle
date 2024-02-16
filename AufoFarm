@@ -52,7 +52,7 @@ end)
 local mod = main:Button("Auto Fingers FARM", function()
 _G.FINGERS_enabled = not _G.FINGERS_enabled
 while _G.FINGERS_enabled do
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -60,7 +60,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -68,7 +68,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -76,7 +76,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -84,7 +84,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -92,7 +92,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -100,7 +100,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -108,7 +108,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -116,7 +116,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "jutso",
@@ -124,14 +124,14 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 end
 end)
 
 local mod = main:Button("Auto BOOK FARM", function()
 _G.BOOK_enabled = not _G.BOOK_enabled
 while _G.BOOK_enabled do
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "dark clover",
@@ -139,7 +139,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "dark clover",
@@ -147,7 +147,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "dark clover",
@@ -155,7 +155,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "dark clover",
@@ -163,7 +163,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "dark clover",
@@ -171,7 +171,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "dark clover",
@@ -179,7 +179,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "dark clover",
@@ -187,7 +187,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "dark clover",
@@ -195,7 +195,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 local args = {
     [1] = "drop_collected",
     [2] = "dark clover",
@@ -203,7 +203,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Shared.events.RemoteEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 end
 end)
 
